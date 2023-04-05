@@ -1,1 +1,7 @@
-
+h1{
+    font-size: large;
+    font-family:'Times New Roman', Times, serif;
+}
+#hi{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
