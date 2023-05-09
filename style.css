@@ -1,0 +1,256 @@
+/*
+.box{
+  background-color: lightblue;
+  border: 1px solid blue ;
+  min-height: 50px;
+  font-size: 2rem;
+}
+
+.logo {
+  display: inline-block; 
+  vertical-align: middle; 
+  height: 4em;
+}
+.header {
+  display: flex; /* Set display property to flex for horizontal alignment 
+  align-items: center; /* Align items vertically in the center 
+}
+.body {
+  background-color: #82110A;
+  width:100vw;
+  height: 100vh;
+
+}
+
+.align-right{
+  text-align: right;
+  position: absolute;
+  right: 23px;
+  top:25px;
+}
+.header h1 {
+  font-size: 30px;
+  margin-inline-start: 20px;
+  margin-inline-end: 20px;
+}
+.header-button {
+  background-color: #d9d9d9;
+  color: black;
+  border: none;
+  padding: 10px;
+   border-radius: 2px;
+  cursor: pointer;
+  width:200px;
+  height:40px;
+  margin-left: 10px; /* Add spacing between buttons 
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: medium;
+
+
+}
+#line1{
+
+}
+
+.banner {
+position: relative;
+margin: 0 10%;
+height: 300px;
+overflow: hidden;
+
+}
+
+.banner-image {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+opacity: 0;
+transition: opacity 1s ease-in-out;
+}
+
+.banner-image.active {
+opacity: 1;
+}
+
+.line1{
+  border-color: #82110A;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 50px;
+}
+
+.text {
+  flex: 1;
+}
+
+.image {
+  flex: 1;
+  text-align: right;
+}
+
+#my-form {
+  width: 100%;
+  max-width: 640px;
+  margin: 0 auto;
+}
+.carousel{
+  margin-top: 30px;
+margin-left: 15px;
+margin-right: 15px;
+margin-bottom: 30px;
+}
+.d-block{
+  width:640px;
+height:460px;
+}
+
+#carousel-plot{
+$carousel-control-color:             $white;
+$carousel-control-width:             15%;
+$carousel-control-opacity:           .5;
+$carousel-control-hover-opacity:     .9;
+$carousel-control-transition:        opacity .15s ease;
+
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-indicator-active-bg:       $white;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+
+$carousel-caption-width:             70%;
+$carousel-caption-color:             $white;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
+
+$carousel-control-icon-width:        2rem;
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+$carousel-transition-duration:       .6s;
+$carousel-transition:                transform $carousel-transition-duration ease-in-out; // Define transform transition first if using multiple transitions (e.g., `transform 2s ease, opacity .5s ease-out`)
+}
+.navbar-nav{
+  n
+}*/
+
+
+/* Sizing for Project Containers  */
+
+
+.row {
+  
+}
+
+.col {
+  flex: 1;
+  margin: 5px;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.column-4 {
+  float: left;
+  width: 17%;
+  padding: 10px;
+  margin:12px;
+  height: 60px;
+  display: flex;
+  align-items: center; /* centers vertically */
+  justify-content: center; /* centers horizontally */
+}
+
+
+
+/* Color and Images for Project Containers  */
+
+
+.project-1{
+  background-color:burlywood;
+  
+}
+.project-2 {
+  background-color:maroon;
+  
+}
+
+.project-3 {
+  background-color:lightskyblue;
+ 
+}
+
+.project-4 {
+  background-color:#112d4e;
+ 
+}
+
+.project-5 {
+  background-color:navajowhite;
+  
+}
+.project-6 {
+  background-color:lightskyblue;
+ 
+}
+
+.project-7 {
+    background-color:#ffffff00;
+  
+}
+
+.project-8 {
+  background:bisque;
+ 
+}
+
+.project-9 {
+  background:maroon;
+ 
+}
+
+.project-10 {
+  background:rgb(107, 100, 92);
+}
+
+.project-text {
+  text-align:center;
+  font-size:15px;
+  vertical-align: middle;
+    
+}
+.t2{
+  color: #ebc1c1;
+}
+.t4{
+  color: whitesmoke;
+}
+.t9{
+  color: #ebc1c1;
+}
+
+.category-chunk {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.header-1{
+  margin-top: 20px;
+}
+
+.recom-content{
+  margin-top: 20px;
+}
+.footer {
+  margin-top: 60px;
+  margin-bottom: 32px;
+  padding: 0 12%;
+  color: #8a8a8a;
+  color: gray;
+}

@@ -1,19 +1,66 @@
 <!DOCTYPE html>
 
 <html>
-    <div class="header">
-        <a href="index.html"><img src="logo.jpg" alt="logo" style="vertical-align: middle; height: 4em;"></a>
-        <h1>About Us</h1>
-        <div class="align-right">
-            <a href="about_us.html"><button class="header-button">About Us</button></a>
-            <a href="contact_us.html"><button class="header-button">Contact Us</button></a>
-           <a href="contribute_a_dataset.html"> <button class="header-button">Contribute a Dataset</button></a>
-         </div>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>
+             UC Open Data
+          </title>
+      
+      <link rel="stylesheet" href = "style.css">
+      <link rel="stylesheet" href="bootstrap.css"> 
+      
+      </head>
+    <body>
+        <!-- navbar part-->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html"><img src="logo_lock.png" alt="logo" style="vertical-align: middle; height: 2em;"></a>
+     
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+         
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Related Link
+              </a>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="https://www.uchicagotechteam.com/">TechTeam</a></li>
+              <li><a class="dropdown-item" href="https://politics.uchicago.edu">IOP</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </li>
+    
+        <li class="nav-item">
+          <a class="nav-link" href="about_us.html">Dataset</a>
+        </li>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact_us.html">Contact Us</a>
+      </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about_us.html">About Us</a>
+    </li>
+  </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Find a dataset" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
     </div>
-	<hr class="line1">
-	<h2 id="header2">
-		About Us
-	</h2>
+  </nav>
+    
+    <!-- Intro part -->
 	<p id="intro">
 		UC Open Data is working to make UChicago's data more accessible and transparent. Our Open Data Portal allows anyone to find and analyze UChicago-related data, such as data on university finances, student life, and academics. You can see our current slate of projects here.
 UC Open Data works as a part of UChicago TechTeam, a civic tech student organization within the Institute of Politics.
@@ -22,61 +69,13 @@ UC Open Data works as a part of UChicago TechTeam, a civic tech student organiza
         Hello! Our email is Iceberg@gmail.com
         
     </div>
-    <link rel="stylesheet" href="css/css.css">
+
+
+
+    <!--script part-->
+  <script src="bootstrap.min.js"></script>
+  <script src="jquery-3.6.4.js"></script>
+  <script src="bootstrap/bootstrap.bundle.js"></script>
+ 
+</body>
 </html>
-
-<style>
-    .logo {
-        display: inline-block; /* Set display property to inline-block */
-        vertical-align: middle; /* Align vertically to middle */
-        height: 4em;
-    }
-    .header {
-        display: flex; /* Set display property to flex for horizontal alignment */
-        align-items: center; /* Align items vertically in the center */
-    }
-    .body {
-        background-color: #82110A;
-        width:100vw;
-        height: 100vh;
-
-    }
-
-	
-
-    .header h1 {
-        font-size: 30px;
-        margin-inline-start: 20px;
-        margin-inline-end: 20px;
-    }
-
-    .align-right{
-        text-align: right;
-        position: absolute;
-        right: 23px;
-        top:25px;
-    }
-
-
-    .header-button {
-        background-color: #d9d9d9;
-        color: black;
-        border: none;
-        padding: 10px;
-         border-radius: 2px;
-        cursor: pointer;
-        width:200px;
-        height:40px;
-        margin-left: 10px; /* Add spacing between buttons */
-        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        font-size: medium;
-    }
-    
-	#header2{
-		margin-left: 2ex;
-	}
-	#intro{
-		margin-left: 2ex;
-		margin-right: 2ex;
-	}
-</style>
