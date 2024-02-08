@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;1,200;1,300&display=swap');
+
+body {
+    margin: 0;
+    font-family: Jost;
+    min-height: calc(100vh - 50px);
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#main {
+    width: 100vw;
+}
+
+#header {
+    height: 12vh;
+    width: 100%;
+    border-bottom: 2px black solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 60%;
+    margin-top: 2vh;
+    margin-left: 20px;
+}
+
+#header h1 {
+    padding-top: 3px;
+    margin-left: 20px;
+}
+
+#header div {
+    margin-right: 20px;
+    height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#header div button {
+    background-color: transparent;
+    border: 0px;
+    font-family: inherit;
+    font-size: 125%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#carousel {
+    --offset: 0vh;
+    height: 60vh;
+    border-bottom: solid 3px black;
+    display: flex;
+    flex-direction: row;
+    margin-left: var(--offset);
+}
+
+#bottom {
+    margin: 7.5vh 10vh;
+}
+
+.carouselCard {
+    width: 100vw;
+    height: 100%;
+
+    background-color: maroon;
+    flex-shrink: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.cardText {
+    background-color: rgb(255 255 255 / 50%);
+    margin-left: 10%;
+    margin-top: 30vh;
+    margin-bottom: auto;
+    transform: translateY(-50%);
+    height: fit-content;
+    width: 40%;
+    padding: 5px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    justify-content: center;
+    display: flex;
+    margin-bottom: 10px;
+    width: 100vw;
+}
+
+
+a { 
+    text-decoration: none;
+    color: inherit; 
+} 
+
+@media (max-width: 780) {
+ #carouselCard {
+    display: none;
+ }
+}

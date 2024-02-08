@@ -1,220 +1,97 @@
 <!DOCTYPE html>
 
-<html lang="en">
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>
-       UC Open Data
-    </title>
+<html>
+    <link rel="stylesheet" href="assets/styles.css">
 
-<link rel="stylesheet" href = "style.css">
-<link rel="stylesheet" href="bootstrap.css"> 
 
-</head>
-<body>
-  <!-- navbar part-->
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html"><img src="logo_lock.png" alt="logo" style="vertical-align: middle; height: 2em;"></a>
-     
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-         
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Related Link
-              </a>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-              <li><a class="dropdown-item" href="https://www.uchicagotechteam.com/">TechTeam</a></li>
-              <li><a class="dropdown-item" href="https://politics.uchicago.edu">IOP</a></li>
-              <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="#">Something else here</a></li>
-            </ul>
-          </li>
-        </li>
-    
-        <li class="nav-item">
-          <a class="nav-link" href="about_us.html">Dataset</a>
-        </li>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="contact_us.html">Contact Us</a>
-      </li>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="about_us.html">About Us</a>
-    </li>
-  </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Find a dataset" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
+    <div id="main">
+        <div id="header">
+            <a href="index.html">
+                <img id="logo" src="assets/logo.svg"">
+            </a>
+            <div>
+                <button><a href="projects.html">PROJECTS</a></button>
+                <button><a href="datasets.html">DATASETS</a></button>
+                <button><a href="about.html">ABOUT US</a></button>
+            </div>
+        </div>
+        <div id="body">
+            <div id="carousel">
+                <div class="carouselCard" style="background-color: maroon;">
+                    <div class="cardText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div>
+                </div>
+                <div class="carouselCard" style="background-color: black;">
+                    <div class="cardText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div></div>
+                <div class="carouselCard" style="background-color: blue;">
+                    <div class="cardText">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                    </div></div>
+            </div>
+            <div id="bottom">
+                <h1>
+                    Who is UC Open Data?
+                </h1>
+                <p>
+                    Originally created in 2019, UC Open Data is <i>UChicago's first and only open data project.</i> We focus
+                    on collecting, creating, analyzing, and sharing data/data products related to UChicago. More specifically, this
+                    involves:
+                    <ul>
+                        <li>
+                            <p >Scraping websites (ethically) to organize data into a readable format
+                            </p>
+                        </li>
+                        <li>
+                            <p >Reaching out to representatives of student government / UChicago admin
+                                to obtain data that otherwise wouldn't be accessible</p>
+                        </li>
+                        <li>
+                            <p >Pushing this data we obtain onto a website for members of our
+                                community to use</p>
+                        </li>
+                        <li>
+                            <p >Analyzing and visualizing the data we obtain to understand the data we
+                                find</p>
+                        </li>
+                        <li>
+                            <p >Writing journalistic articles to explain the data's story and reach
+                                broader audiences</p>
+                        </li>
+                        <li>
+                            <p >And much more!</p>
+                        </li>
+                    </ul>
+                </p>
+                <h1>
+                    Want to join UC Open Data?
+                </h1>
+                <p>
+                    Members pursue data science/data journalism projects individually or in small teams throughout the quarter. We generally meet once a week for two hours, with times varying each quarter depending on when is best for everyone in the group. During spring quarter 2023, we'll be meeting <i>Wednesdays from 4:30-6 PM in the IOP Living Room!</i>
+                </p>
+                <p>We accept new members with both technical and non-technical backgrounds and
+                    provide an open environment to learn while working, with experienced group members always open to help. Subscribe to
+                    our <a href="https://lists.uchicago.edu/web/info/ucopendata">listserv</a> for more info, and feel free to email
+                    uchicagotechteam@gmail.com if you have any questions or would like to join! 
+                </p>
+            </div>
+        </div>
     </div>
-  </nav>
-<!--<div class="navbar navbar-expand">
-  <div class="container">
-  <div class="navbar-brand  "></div>
-  </div>
-</div>-->
-   
-<!-- Carousel part-->
-<div id="carouselExampleCaptions" class="carousel slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <img src="m1.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="m2.jpeg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Some representative placeholder content for the second slide.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="m3.jpeg" class="d-block w-100" alt="..." >
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
 
-
-<div class="content-wrapper" style="margin-left: 5%;margin-right: 5%;">
-
-  <!-- catogary part-->
-<div class="header-1 catogary" >
-<h2>Browse the data catalog</h2>
-
-</div>
-
-<div class="category-chunk">
-  <button class="column-4 project-1" onclick="window.location.href='https://www.google.com'">
-    <h2 class="project-text">Academy</h2>
-  </button>
-  
-  <div class="column-4 project-2">
-    <h2 class="project-text t2">Transportation</h2>
-  </div>
-  
-  <div class="column-4 project-3">
-    <h2 class="project-text t3">Housing</h2>
-  </div>
-  
-  <div class="column-4 project-4">
-    <h2 class="project-text t4">Currency</h2>
-  </div>
-  
-  <div class="column-4 project-5">
-    <h2 class="project-text t5" >Crime</h2>
-  </div>
-  
-  <div class="column-4 project-6">
-    <h2 class="project-text" >School <br> Life</h2>
-  </div>
-  
-  <div class="column-4 project-7">
-    <h2 class="project-text">Dining</h2>
-  </div>
-  
-  <div class="column-4 project-8">
-    <h2 class="project-text">Facility</h2>
-  </div>
-  <div class="column-4 project-9">
-    <h2 class="project-text t9">finances</h2>
-  </div>
-  <div class="column-4 project-10">
-    <h2 class="project-text">RSO</h2>
-  </div>
-</div>
-
-
-<!--Recommendation-->
-
-  <div class="header-1 recommend">
-    <h2>Featured Dataset</h2>
-  </div>
-<div class="recom-content">
-<div class="row">
-  <div class="col-sm-3 mb-3 mb-sm-0">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-3">
-    <div class="card">
-      <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
-      </div>
-    </div>
-  </div>
-</div>
-</div>
-</div>
-
-
-<div class="footer">
-  Interested in creating your own data portal? Check out our
-  <a href="https://github.com/UCOpenData" target="_blank">GitHub</a>
-</div>
-
-
-
-   <script src="bootstrap.min.js"></script>
-<script src="jquery-3.6.4.js"></script>
-<script src="bootstrap/bootstrap.bundle.js"></script>
-    </body>
-  
-    
+    <footer>
+        © 2024 UC Open Data. All rights reserved.
+    </footer>
 </html>
 
+<script>
+    offset = 0;
+    let numCards = document.getElementsByClassName("carouselCard").length
+    document.getElementById("carousel").addEventListener("click", () => {
+        offset = (offset + 1) % numCards;
+        carousel = getComputedStyle(document.getElementById("carousel"));
+        document.getElementById("carousel").style.setProperty("--offset", `-${offset * 100}vw`);
+        console.log(offset);
+    })
+</script>
