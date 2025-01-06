@@ -17,6 +17,18 @@ body {
     min-height: 100vh;
     color: #fff; 
 }
+back-2{
+    height: 100vh;
+    background-image: url('./grocery.svg'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    color: #fff;
+}
 
 
 header {
@@ -27,7 +39,13 @@ header {
     justify-content: space-between;
     align-items: center;
 }
-
+body.projects-page {
+    background-image: url('./projects-background.svg'); /* Replace with your desired background image */
+    background-color: #000000; /* Fallback color if the image doesn't load */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 #logo {
     height: 50px;
@@ -87,6 +105,122 @@ main {
     background-color: rgba(0, 0, 0, 0.8); 
 }
 
+
+.content-box {
+    background-color: rgba(50, 50, 50, 0.8); /* Dark grey with 80% opacity */
+    padding: 100px 120px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+    width: 90%; /* Responsive width */
+}
+
+
+.content-box h1 {
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+.content-box p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.content-box ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    text-align: left; /* Align list to the left for better readability */
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    width: 100%;
+    
+}
+
+
+.project-item {
+    background-color: rgba(0, 0, 0, 0.8); /* Dark grey background with opacity */
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 400px;
+    width: 100%;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.project-image {
+    width: 35%;
+    height: auto;
+    object-fit: cover;
+    margin-top: 2px;
+    border: 4px solid #800; 
+    border-radius: 10px;
+    
+}
+
+
+.project-content {
+    padding: 20px 30px;
+    width: 65%;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+
+}
+
+
+.project-content h2 {
+    margin-bottom: 15px;
+    font-size: 36px;
+    color: #fff;
+}
+
+
+.project-content p {
+    flex: 1;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    font-size: 28px;
+    color: #ddd;
+}
+.see-more-button{
+    justify-content: center;
+    text-decoration: none;
+    font-size: 28px;
+    border: #fff solid;
+    background-color: #000;
+    color: #ddd;
+    border-radius: 10px;
+    padding: 20px 40px;
+    
+}
+.see-more-button:hover{
+    justify-content: center;
+    text-decoration: none;
+    font-size: 28px;
+    border: #fff solid;
+    background-color: #800;
+    color: #ddd;
+    border-radius: 10px;
+    padding: 20px 40px;
+    
+}
 
 footer {
     width: 100%;

@@ -1,49 +1,117 @@
 <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Open Data - Our Projects</title>
+    
 
-<html>
-    <link rel="stylesheet"href="https://fonts.googleapis.com/css?family=Jost">
     <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body class = "projects-page">
 
 
-    <div id="main">
-        <div id="header">
-            <div>
-                <a href="/">
-                    <img id="logo" src="assets/logo.svg"">
-                </a>
+
+    <header>
+        <div class="logo-container">
+            <a href="/">
+                <img id="logo" src="./assets/logo.svg" alt="UC Open Data Logo">
+            </a>
+        </div>
+        <nav>
+            <div class="nav-buttons">
+                <a href="/projects" class="nav-link">PROJECTS</a>
+                <a href="/about" class="nav-link">ABOUT US</a>
             </div>
-            <div id="navbar">
-                <div>
-                    <button><a href="/projects">PROJECTS</a></button>
-                    <button><a href="/datasets">DATASETS</a></button>
-                    <button><a href="/about">ABOUT US</a></button>
+        </nav>
+    </header>
+
+    <main>
+       
+        
+
+        <section class="projects-container">
+            
+
+            <div class="project-item">
+                <img src="assets/cameras.png" alt="Project 1 Image" class="project-image">
+                <div class="project-content">
+                    <h2>Red Light and Speed Cameras</h2>
+                    <p>
+                        This project uses a streamlit dashboard and folium mapping tools to provide a map of Red Light and Speed Cameras. It also provides the top 10 most activated red light and speed cameras around Chicago. Data courtesy of Kaggle.
+                    </p>    
+                    <a href="https://red-light-speed-6nrma3wguiyq7tju4mzqmc.streamlit.app/" class="see-more-button">See Visual</a>
                 </div>
             </div>
-        </div>
-        <div id="body">
-            <div id="projMain">
-                <h1>https://red-light-speed-6nrma3wguiyq7tju4mzqmc.streamlit.app/</h1>
-                <div class="project"></div>
-                <div class="project"></div>
-                <div class="project"></div>
-                <div class="project"></div>
+            
 
+            <div class="project-item">
+                <img src="assets/traffic-crash.png" alt="Project 2 Image" class="project-image">
+                <div class="project-content">
+                    <h2>Traffic Crashes</h2>
+                    <p>
+                        This project uses a streamlit dashboard, folium mapping tools, and pandas data manipulation to provide a heatmap of traffic crashes in chicago sorted by year. Data from Kaggle csv and added to by API calls to the US Census Geocoding API.
+                    </p>
+                    <a href="https://traffic-crashes-ahuagvc4n9cbx9xx7t4ykh.streamlit.app/" class="see-more-button">See Visual</a>
+                </div>
             </div>
-        </div>
-    </div>
-
+            <div class="project-item">
+                <img src="assets/lyft-data.png" alt="Project 3 Image" class="project-image">
+                <div class="project-content">
+                    <h2>University of Chicago Lyft Data</h2>
+                    <p>
+                        This project uses public Lyft Data that we have filtered down to only include lyfts in the UChicago area.
+                    </p>
+                    <a href="/projects/project2" class="see-more-button">See Visual</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="assets/grocery.png" alt="Project 2 Image" class="project-image">
+                <div class="project-content">
+                    <h2>Chicago Grocery Stores</h2>
+                    <p>
+                        This project used the dataset from the Chicago Data Portal on grocery stores and updated it with data from the Google Maps API to show the availibility of food in different Chicago neighborhoods.
+                    </p>
+                    <a href="/projects/project2" class="see-more-button">See Visual</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="assets/crimes.png" alt="Project 2 Image" class="project-image">
+                <div class="project-content">
+                    <h2>University of Chicago Police Department Crime Log Data</h2>
+                    <p>
+                        This project displays the amount of crimes reported at each hour of the day each month since reports were available. Data courtesy of University of Chicago Police Department
+                    </p>
+                    <a href="/projects/project2" class="see-more-button">See Visual</a>
+                </div>
+            </div>
+            <div class="project-item">
+                <img src="assets/wifi-availability.png" alt="Project 2 Image" class="project-image">
+                <div class="project-content">
+                    <h2>Internet Usage and Availability</h2>
+                    <p>
+                        This project displays internet usage and availibility by block in Chicago.
+                    </p>
+                    <a href="/projects/project2" class="see-more-button">See Visual</a>
+                </div>
+            </div>
+            <!-- Add more project-item divs as needed -->
+            
+        </section>
+    
+    </main>
+   
     <footer>
-        © 2024 UC Open Data. All rights reserved.
+        © 2025 UC Open Data. All rights reserved.
     </footer>
+
+    <!-- JavaScript Function (Optional) -->
+    <script>
+        function buttonClicked() {
+            window.location.href = "/projects";
+            // You can add more functionality here
+        }
+    </script>
+</body>
 </html>
-
-<style>
-    #projMain {
-        width: 80vw;
-    }
-
-    .project {
-        border-bottom: black solid 2px;
-        height: 200px;
-    }
-</style>
