@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Open Data - Our Projects</title>
+    
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="/">
+                <img id="logo" src="./assets/logo.svg" alt="UC Open Data Logo">
+            </a>
+        </div>
+        <nav>
+            <div class="nav-buttons">
+                <a href="/projects" class="nav-link">PROJECTS</a>
+                <a href="/about" class="nav-link">ABOUT US</a>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <div class="button-container">
+            <button onclick="window.location.href='./assets/upload-speed-cook-county.png'">Average upload speed Cook County</button>
+            <button onclick="window.location.href='./assets/upload-speed-illinois.png'">Average upload speed Illinois</button>
+            <button onclick="window.location.href='./assets/download-speed.png'">Average download speed Illinois</button>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 UC Open Data. All rights reserved.
+    </footer>
+
+    <script>
+        function buttonClicked() {
+            window.location.href = "/projects";
+            
+            
+        }
+    </script>
+</body>
+</html>
