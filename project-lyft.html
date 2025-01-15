@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UC Open Data - Our Projects</title>
+    
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo-container">
+            <a href="/">
+                <img id="logo" src="./assets/logo.svg" alt="UC Open Data Logo">
+            </a>
+        </div>
+        <nav>
+            <div class="nav-buttons">
+                <a href="/projects" class="nav-link">PROJECTS</a>
+                <a href="/about" class="nav-link">ABOUT US</a>
+            </div>
+        </nav>
+    </header>
+
+    
+    <main>
+        <div class="button-container-lyft">
+            <button onclick="window.location.href='./assets/tips_dropoff.png'">Tips from dropoffs in UChicago area</button>
+            <button onclick="window.location.href='./assets/tips_pickup.png'">Tips from pickups in UChicago area</button>
+            <button onclick="window.location.href='./assets/campus_pickup.png'">Pickup times in UChicago area</button>
+            <button onclick="window.location.href='./assets/campus_dropoff.png'">Dropoff times in UChicago area</button>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 UC Open Data. All rights reserved.
+    </footer>
+
+    <script>
+        function buttonClicked() {
+            window.location.href = "/projects";
+            
+            
+        }
+    </script>
+</body>
+</html>

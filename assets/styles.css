@@ -257,6 +257,41 @@ main {
 .button-container button:active {
     transform: scale(0.95); /* Shrink slightly on click */
 }
+.button-container-lyft {
+    padding: 60px 80px;
+    font-size: 16px;
+    color: #000;
+    background-color: rgba(0, 0, 0, 0.8); 
+    border: 2px solid #fff; 
+    border-radius: 10px;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-container-lyft button {
+    padding: 20px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: transparent; 
+    border: 2px solid #fff; 
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.button-container-lyft button:hover {
+    background-color: rgba(0, 0, 0, 0.8); /* Darker blue on hover */
+    transform: scale(1.05); /* Slight zoom on hover */
+}
+
+.button-container-lyft button:active {
+    transform: scale(0.95); /* Shrink slightly on click */
+}
 
 footer {
     width: 100%;
