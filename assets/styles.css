@@ -40,8 +40,8 @@ header {
     align-items: center;
 }
 body.projects-page {
-    background-image: url('./projects-background.svg'); /* Replace with your desired background image */
-    background-color: #000000; /* Fallback color if the image doesn't load */
+    background-image: url('./projects-background.svg'); 
+    background-color: #000000; 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -108,13 +108,13 @@ main {
 
 
 .content-box {
-    background-color: rgba(50, 50, 50, 0.8); /* Dark grey with 80% opacity */
+    background-color: rgba(50, 50, 50, 0.8); 
     padding: 100px 120px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     
-    width: 90%; /* Responsive width */
+    width: 90%; 
 }
 
 
@@ -133,7 +133,7 @@ main {
     list-style-type: disc;
     margin-left: 20px;
     margin-bottom: 20px;
-    text-align: left; /* Align list to the left for better readability */
+    text-align: left; 
 }
 
 .projects-container {
@@ -146,7 +146,7 @@ main {
 
 
 .project-item {
-    background-color: rgba(0, 0, 0, 0.8); /* Dark grey background with opacity */
+    background-color: rgba(0, 0, 0, 0.8); 
     display: flex;
     flex-direction: row;
     align-items: left;
@@ -250,12 +250,12 @@ main {
 }
 
 .button-container button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker blue on hover */
-    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: rgba(0, 0, 0, 0.8); 
+    transform: scale(1.05); 
 }
 
 .button-container button:active {
-    transform: scale(0.95); /* Shrink slightly on click */
+    transform: scale(0.95); 
 }
 .button-container-lyft {
     padding: 60px 80px;
@@ -285,12 +285,12 @@ main {
 }
 
 .button-container-lyft button:hover {
-    background-color: rgba(0, 0, 0, 0.8); /* Darker blue on hover */
-    transform: scale(1.05); /* Slight zoom on hover */
+    background-color: rgba(0, 0, 0, 0.8); 
+    transform: scale(1.05); 
 }
 
 .button-container-lyft button:active {
-    transform: scale(0.95); /* Shrink slightly on click */
+    transform: scale(0.95); 
 }
 
 footer {
@@ -298,7 +298,7 @@ footer {
     text-align: center;
     padding: 10px 0;
     color: black;
-    background-color: rgba(255, 255, 255, 0.5); /* Added background for consistency */
+    background-color: rgba(255, 255, 255, 0.5); 
 }
 
 
